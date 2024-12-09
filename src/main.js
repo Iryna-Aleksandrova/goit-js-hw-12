@@ -32,6 +32,7 @@ async function createGallery(event) {
 
   if (!query) {
     showError('Please write a query for search');
+    loader.style.display = 'none';
     return;
   }
 

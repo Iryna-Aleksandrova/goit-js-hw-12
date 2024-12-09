@@ -1,12 +1,6 @@
 /* Common styles */
 @import url('./reset.css');
 
-img {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 body {
   font-family: 'Montserrat';
   color: #2e2f42;
@@ -154,6 +148,7 @@ body {
   margin-bottom: 4px;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .load-more:hover,
 .load-more:focus {
   background-color: #6c8cff;
